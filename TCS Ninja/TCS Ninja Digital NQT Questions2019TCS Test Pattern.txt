@@ -1,0 +1,31 @@
+TCS Aptitude test syllabus and test pattern
+TCS conducts written test and three rounds of interview to select freshers as assistant system engineer in their organisation.  In the first round they conduct one and half hour written test, followed by three interview rounds namely Technical round, Managerial round, and HR round. The written test has email writing component.
+
+Test pattern 2019-20:
+Duration for test: 
+From 2019 - 20 batch, it is expected that TCS is going to include Technical Questions in the aptitude round itself.  There are two components of technical questions. MCQ's and Programming.   So you are advised to go through various technical sites to be good at these areas. 
+
+Instead of giving 30 aptitude question, now you may have only 20 aptitude questions to be solved in 40 minutes.
+
+In addition to this, you have to write an email using the given clues in around 70 words. You have to type the email in the space given. The most important thing is you have to use all the phrases given without missing even single one.
+
+TCS Test Pattern 2019-20
+Section Names	Time (in Minutes)	Number of Questions
+Verbal	10	10
+Quantitative Ability	40	20
+Programming Language Efficiency	20	10
+Coding Test	20	1
+Total	90 Minutes	41 Questions
+
+
+Syllabus for written test: 
+According to the model questions given in the TCS recruitment portal https://nextstep.tcs.com we can assume the following chapters are very important. There is no verbal part in TCS aptitude test except for email writing.  1/3rd negative marking will be there.
+
+Important topics: 
+Number system, Equations, Ratio and Proportion, Percentages, Profit and Loss, Time and Work, Time speed Distance, Areas and Mensuration, Averages, Permutations and Combinations, Probability, Plane geometry, Seating Arrangements, Sets, Progressions, Functions.
+
+Interview process:
+There is no hard and fast rule that you may be asked only Technical questions in technical interview. or HR questions in HR interview.  You have to prepare well before for all the types of interviews.
+For technical interview, you have to focus on C, DBMS and JAVA. It is important you have to be through with at least a couple of your core subjects. 
+
+All the best.

@@ -1,0 +1,44 @@
+Question 1. Differences between C and Java?
+
+Answer 1.1.JAVA is Object-Oriented while C is procedural.
+
+                  2.Java is an Interpreted language while C is a compiled language.
+
+                  3.C is a low-level language while JAVA is a high-level language.
+
+                  4.C uses the top-down approach while JAVA uses the bottom-up approach.
+
+                  5.Pointer go backstage in JAVA while C requires explicit handling of pointers.
+
+                  6.The Behind-the-scenes Memory Management with JAVA & The User-Based Memory   Management in C.
+
+                  7.JAVA supports Method Overloading while C does not support overloading at all.
+
+                  8.Unlike C, JAVA does not support Preprocessors, & does not really them.
+
+                  9.The standard Input & Output Functions–C uses the printf & scanf functions as its standard input & output while JAVA uses the System.out.print & System.in.read functions.
+
+                 10.Exception Handling in JAVA And the errors & crashes in C.
+
+Question 2. What is the difference between realloc() and free()?
+
+Answer 2. The free subroutine frees a block of memory previously allocated by the malloc subroutine. Undefined results occur if the Pointer parameter is not a valid pointer. If the Pointer parameter is a null value, no action will occur. The realloc subroutine changes the size of the block of memory pointed to by the Pointer parameter to the number of bytes specified by the Size parameter and returns a new pointer to the block. The pointer specified by the Pointer parameter must have been created with the malloc, calloc, or realloc subroutines and not been deallocated with the free or realloc subroutines. Undefined results occur if the Pointer parameter is not a valid pointer.
+
+HR Interview Questions for TCS NQT 2020
+Below are the questions for HR Interview for TCS NQT.
+
+Question 1. Why should I take you in TCS?
+
+Suggestion. Whether your interviewer asks you this question explicitly or not, this is the most important question of your interview because he must answer this question favorably in is own mind
+
+before you will be hired. So help him out! Walk through each of the positions requirements as you understand them, and follow each with a reason why you meet that requirement so well.
+
+Question 2. What do you know about TCS as a company?
+
+Suggestion. Best sources for researching your target company: annual reports, the corporate newsletter, contacts you know at the company or its suppliers, advertisements, articles about the company in the trade press.
+
+Tata Consultancy Services Limited (TCS) is an Indian multinational IT services, business solutions and outsourcing company headquartered in Mumbai- India and a subsidiary of the Tata Group conglomerate. It is the largest Asia based provider of business process outsourcing services. TCS has been ranked #20 in the list of top companies of India, by Fortune India 500 magazine. It is the largest IT service company in India by revenue and market capitalization.
+
+TCS has 142 offices across over 42 countries and generates around 30 per cent of India’s IT exports. The company became the first Indian IT company to cross the ten billion dollar milestone posting annual revenues of $10.17 billion.
+
+If you have any doubts then you can comment below. We are always happy to help you here at Alpingi.

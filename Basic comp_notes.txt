@@ -1,0 +1,181 @@
+https://github.com/dufferzafar/geeksforgeeks.pdf/releases
+
+						NOTES:
+<?php 
+                                    $sqln =$mysqli->query("SELECT * FROM donate_records WHERE ngo_id='$ngo_user_id'");
+                                    //if($sqln->num_rows > 0)//counts the rows
+                                    //{
+                                        //while($ro=$query->fetch_array())//fetches individual row in array format
+                                       // {  
+                                        $ro=$query->fetch_array();
+                                     echo '<div class="card-body">';
+                                     ?>          <span class="closebtn" style="font-size:30px" onclick="this.parentElement.style.display='none';">&times;</span> 
+                                     <?php
+                                     echo '<p class="card-text">' . $ro["username"]." ".'donated You'  ." ". $ro["donate_quantity"] ." ". $ro["item"] .'</p>';
+                                     echo '</div>';
+                                       // }
+                                      //}
+                                    ?>
+
+iv)input[type=text]:focus {
+  background-color: lightblue;
+ANS: this means focus is used to focus on the text boxes colour which is used for inputting name
+
+iii) outline: none;
+ANS:  This means it wil remove the blue outline of text box when we click on it
+ii)So why does code-igniter needs OOP concept?
+ANS.in OOP we used to create objects an call the functions in the parent class.Same thing we are doing in codeigniter,we are calling the functions in parent class(ex.CI_Controller class,CI_Model etc.,) , using different objects
+i)difference between base url and site url??
+ans.base url is used too add the assets i.e.,css and JS file.Exmple.,Base url = http://localhost/code_igniter , Site URL = site/actions.php ,so base url only for external files..
+
+a)What are Routes? 
+ANS.Routes are responsible for responding to URL requests. Routing matches the URL to the pre-defined routes. If no route match is found then, CodeIgniter throws a page not found an exception. this are kind search engines to locate something,like if 
+ user writes contact,then we will show contact related 
+ details in web page
+
+1)CODE TO SEND MAIL
+<!--SMTP=smtp.gmail.com
+smtp_port=587
+sendmail_from =rockingdeba000@gmail.com
+sendmail_path="\"C:\xampp\sendmail\sendmail.exe\" -t"
+
+
+
+smtp_server=smtp.gmail.com
+smtp_port=587
+error_logfile=error.log
+debug_logfile=debug.log
+auth_username=rockingdeba000@gmailcom
+auth_password=debanjan1234
+force_sender: rockingdeba000@gmail.com->
+
+DIFFERENT ERRORS:-
+a)A 404 is a Standard Response Code meaning that the server cannot find the requested resource.
+b)An HTTP error code meaning "Bad Gateway".
+A server can act as a gateway or proxy (go-between) between a client (like your Web browser) and another, upstream server. When you request to access a URL, the gateway server can relay your request to the upstream server. "502" means that the upstream server has returned an invalid response.
+In computer networking, upstream server refers to a server that provides service to another server. In other words, upstream server is a server that is located higher in a hierarchy of servers. The highest server in the hierarchy is sometimes called the origin server.
+
+HTTP STORY:-
+i)As part of a URI, the "http" within "http://example.com/" is called a "scheme". Resources using the "http" schema are typically transported over unencrypted connections using the HTTP protocol. The "https" scheme (as in "https://developer.mozilla.org") indicates that a resource is transported using the HTTP protocol, but over a secure TLS channel.HTTP transfers every resources of webpage to webserver even.
+ii)The http within http means https or "Scheme"and only http means "Schema"
+
+iii)Cross-Origin Resource Sharing (CORS) is a mechanism that uses additional HTTP headers to tell browsers to give a web application running at one origin, access to selected resources from a different origin. A web application executes a cross-origin HTTP request when it requests a resource that has a different origin (domain, protocol, or port) from its own.
+
+An example of a cross-origin request: the front-end JavaScript code served from https://domain-a.com uses XMLHttpRequest to make a request for https://domain-b.com/data.json.
+
+WEB INFO,:-
+"CLIENT" is a computer or a program that, as part of its operation, relies on sending a request to another 
+program(SERVER PROGRAM LIKE "PHP") or a computer hardware or software that accesses a service made available by a
+server . For example, web browsers are clients that connect to web servers and retrieve web pages for display...
+
+"WEB SERVER" is server software, or hardware dedicated to running this software, that can satisfy client requests 
+on the World Wide Web. A web server can, in general, contain one or more websites. A web server processes 
+incoming network requests over HTTP and several other related protocols.Servers can provide various functionalities,'
+ often called "services", such as sharing data or resources among multiple clients, or performing computation 
+for a client..
+
+1) $_GET is an array of variables passed to the current script via the 
+URL parameters (all variable names and values are displayed in the URL)
+
+2)$_POST is an array of variables passed to the current script via the 
+	HTTP POST method(all names/values are embedded within the body of the HTTP request)
+
+3)A)creating text box nd declraing post method
+     B)fetching values of text box nd storing in variable;
+	C)presenting a table format or statement format with the values,i.e.,fetched from the current file to another file
+	   D)showing the output in the console,whic..h is returned from the server page
+4)<a href='page2.php?id=2489&user=tom'>link to page2</a>
+	echo $_GET['id']; // output 2489
+	echo $_GET['user']; // output tom
+
+5)POST supports advanced functionality such as support for multi-part binary input while uploading files to server.
+ex.<input type="file">---will return the multiple files at once by clicking "CHOOSE" to the server..
+
+6)echo $_SERVER['PHP_SELF'];//RETURNS the current page server URL link
+7)The common gateway interface (CGI) is a standard way for a Web server to pass a Web user's request 
+to an application program and to receive data back to forward to the user.
+
+8)$_SERVER['HTTPS']	Is the script queried through a secure HTTP protocol,
+
+So,this are the server requests made to the web server,and after the request is made it returns those data or values
+related to it from the database,or sometime from itself..
+
+9)<form method="post" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]);?>">
+EXPLAIN:-
+a)The $_SERVER["PHP_SELF"] is a super global variable that returns the filename of the currently executing script.
+b)The htmlspecialchars() function converts special characters to HTML entities. This means that it will replace HTML
+ characters like "<" and ">" with &lt and &gt. This prevents attackers from exploiting the code by injecting 
+HTML or Javascript code (Cross-site Scripting attacks) in forms.
+
+10)In computing, the "Same-Origin Policy" is an important concept in the web application security model. Under the policy, a web browser permits scripts contained in a first web page to access data in a second web page, but only if both web pages have the same origin.It helps isolate potentially malicious documents, reducing possible attack vectors.
+It  is a critical security mechanism that decides if the origin or content or resource of the first page is same as the origin of 2nd page.
+Web content's origin is defined by the scheme (protocol), host (domain), and port of the URL used to access it. Two objects have the same origin only when the scheme, host, and port all match.
+
+Examples of SameOrigin:-
+http://example.com/app1/index.html ----->HERE
+http://example.com/app2/index.html 	same origin because same scheme (http) and host (example.com)
+
+http://Example.com:80 ---->HERE
+http://example.com	same origin because a server delivers HTTP content through port 80 by default
+
+Examples of different origin:-
+
+http://example.com/app1   ----->HERE
+https://example.com/app2		different schemes
+
+http://example.com      ----->HERE
+http://www.example.com  	         different hosts
+http://myapp.example.com
+	
+http://example.com   ----->HERE
+http://example.com:8080	    different ports
+
+<?php
+//file1 is linked with uploader.html
+//The uploaded file is stored in the $_FILES['file'] array, 
+//where 'file' is the name of the variable,the name,type,size
+//are all stored in the form of array.here name=file1 in array.
+	$filename=$_FILES["file1"]["name"];//fetch actual file name(for ex. banner1")
+	$tmpname=$_FILES["file1"]["tmp_name"];//fetch temporary file name on the server,original copy is in our system,and the copy of the file is sent to the server file..
+	//after running the above statement and uploading a image,the computer creates a temporary file,then it send the temporary file to server folder,and then deleting the temporary file saved on our computer
+	$type=$_FILES["file1"]["type"];
+	$size=$_FILES["file1"]["size"];
+	echo $type;//file1 is the name of file to be uploaded,name is the variable storing value of file.
+	echo $size;
+
+	if($type=="image/jpeg" || $type=="image/png" ||$type=="application/pdf")//if this is png or jpeg,both are uploaded after the checking
+	{
+		if(!is_dir("uploads"))//checks if there is a directory called uploads
+			mkdir("uploads");//create the folder named uploads
+		move_uploaded_file($tmpname,"w3s/file/uploads/".$filename);//here, $tmpname is the file name having bb.pdf,and destination path is set to the folder named "uploads" in the server..
+//We'll use the PHP function "move_uploaded_file()" to move the file to a directory on the server.	//if "a.png is written,then the name of the file name will be saved as "a.png"..
+?>	
+	<a href="uploads/<?=$filename?>" value="preview" ></a><!--this is used to see the pdf file
+	<?php
+	else{
+		echo "<script>alert('File format not supported')</script>";
+	}
+}
+
+//<?=$filename> is called short hand to include a PHP file name in a html form..
+//? is the query string to sent value to another page...
+//move_uploaded_file:-->This function checks to ensure that the file designated by filename is a valid upload file (meaning that it was uploaded via PHP's HTTP POST upload mechanism). If the file is valid, it will be moved to the filename given by destination.
+//move "target file-->bb.pdf to "target directory-->uploads"
+/*
+<php
+  $targetdir = '/uploads/';   //this the directory server folder where temp file is to be send and stored.
+      // name of the directory where the files should be stored
+  $targetfile = $targetdir.$_FILES['file']['name'];//-->/uploads/bb.pdf,is the output of this line,and "." is concatenating the entire string to form a path stored in the $target file
+
+  if (move_uploaded_file($_FILES['file']['tmp_name'], $targetfile)) {
+    // file uploaded succeeded
+  } else { 
+    // file upload failed
+  }
+?>*/
+?>
+
+<!--
+
+
+https://my.newtonschool.co/course/elt1kkjado/notes/dsa/
